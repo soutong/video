@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxt.mapper.PhotoMapper">
+	<insert id="add" parameterType="com.sxt.model.Photo">
+		insert into photo (photoDesc,photoPath,uploadTime) values(#{photoDesc},#{photoPath},now())
+	</insert>
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from photo where photoId=#{photoId}
+	</delete>
+	<select id="findAll" resultType="com.sxt.model.Photo">
+		select * from photo 
+	</select>
+	<select id="findById" parameterType="java.lang.Integer" resultType="com.sxt.model.Photo">
+		select * from photo where photoId=#{photoId}
+	</select>
+</mapper>
+        
+  

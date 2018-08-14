@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        <mapper namespace="com.sxt.mapper.ArticleTypeMapper">
+        <select id="findAll" resultType="com.sxt.model.ArticleType">
+        	select * from articletype
+        </select>
+        <select id="findById" parameterType="java.lang.Integer" resultType="com.sxt.model.ArticleType"> 
+        	select * from articletype where typeId=#{typeId}
+        </select>
+        <insert id="add" parameterType="com.sxt.model.ArticleType">
+        	insert into articletype (typeName,typeDesc) values(#{typeName},#{typeDesc})
+        </insert>
+        <update id="update" parameterType="com.sxt.model.ArticleType">
+        	update articleType set typeName=#{typeName},typeDesc=#{typeDesc}
+        </update>
+        <delete id="delete" parameterType="java.lang.Integer">
+        	delete from articleType where typeId=#{typeId}
+        </delete>
+        </mapper>

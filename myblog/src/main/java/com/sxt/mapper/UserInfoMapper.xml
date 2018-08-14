@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<mapper namespace="com.sxt.mapper.UserInfoMapper">
+	<insert id="register" parameterType="com.sxt.model.UserInfo">
+		insert into userinfo (userName,userPass) values(#{userName},#{userPass})
+	</insert>
+	<select id="login" parameterType="com.sxt.model.UserInfo" resultType="com.sxt.model.UserInfo">
+		select * from userinfo where userName=#{userName} and userPass=#{userPass}
+	</select>
+	</mapper>

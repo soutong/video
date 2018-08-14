@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxt.mapper.ArticleMapper">
+	<select id="findAll" resultType="com.sxt.model.Article">
+		select * from article
+	</select>
+	<select id="findById" resultType="com.sxt.model.Article" parameterType="java.lang.Integer">
+		select * from article where articleId=#{articleId}
+	</select>
+	<insert id="add" parameterType="com.sxt.model.Article">
+		insert into article (articleTitle,articleFrom,articleDesc,articleContent,typeId) values(#{articleTitle},#{articleFrom},#{articleDesc},#{articleContent},#{typeId})
+	</insert>
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from article where articleId=#{articleId}
+	</delete>
+	<update id="update" parameterType="com.sxt.model.Article">
+		update article set articleTitle=#{articleTitle},articleForm=#{articleTitle},articleDesc=#{articleDesc},articleContent=#{articleDesc}
+	</update>
+	<select id="findByType" parameterType="java.lang.Integer" resultType="com.sxt.model.Article">
+		select * from article
+		<where>
+			<if test="value!=0">
+				and typeId=#{value}
+			</if>
+		</where>
+	</select>
+	
+</mapper>
