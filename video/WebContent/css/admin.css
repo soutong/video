@@ -1,0 +1,170 @@
+body{
+	background-color: #FFFFCC;
+}
+.adminLeft {
+	border: 1px solid #6699FF;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+.adminLeft .subTd {
+	background-color: #66CCFF;
+}
+.adminLeft .subTitle {
+	font-family: "宋体";/*黑体有IE不支持*/
+	font-size: 16px;
+	color: #000066;
+	
+	padding-left: 0px;
+}
+.adminLeft td {
+	border-top-color: #FFFFCC;
+	border-right-color: #FFFFCC;
+	border-bottom-color: #FFFFCC;
+	border-left-color: #FFFFCC;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	padding-left: 20px;
+}
+.adminLeft a:link {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #009900;
+	text-decoration: underline;
+}
+.adminLeft a:visited {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #009900;
+	text-decoration: underline;
+}
+.adminLeft a:hover {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #FF6600;
+	text-decoration: underline;
+}
+.adminLeft a:active {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #009900;
+	text-decoration: underline;
+}
+.textTitle {
+	font-family: "宋体";
+	font-size: 18px;
+	color: #006699;
+	text-align: center;
+	padding: 20px;
+	margin-left: 20px;
+}
+.textContent {
+	padding: 5px;
+	margin-left: 20px;
+}
+.textTable {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #6699FF;
+	border-left-color: #6699FF;
+}
+.textTable td{
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #6699FF;
+	border-bottom-color: #6699FF;
+}
+
+.textFooter {
+	margin-left: 20px;
+	padding-right: 15px;
+	text-align: right;
+}
+.textFooter a:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000066;
+	text-decoration: underline;
+}
+.textFooter a:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000066;
+	text-decoration: underline;
+}
+.textFooter a:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FF6600;
+	text-decoration: underline;
+}
+.textFooter a:active {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000066;
+	text-decoration: underline;
+}
+.inputTitle {
+	font-family: "宋体";
+	font-size: 18px;
+	color: #006699;
+	text-align:center;
+	padding: 20px;
+	margin-left: 10%;
+	width: 340px;
+}
+.fromContent {
+	padding: 5px;
+	margin-left: 10%;
+}
+.formTable {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #6699FF;
+	border-left-color: #6699FF;
+	width: 600px;
+}
+.formTable td{
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #6699FF;
+	border-bottom-color: #6699FF;
+	height: 20px;
+}
+.formTable .formTitle {
+	width: 100px;
+	background-color: #66CCFF;
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+}
+.formTable input text {
+	width:240px;
+}
+
+.inputButton {
+	background-position: center center;
+	width: 80px;
+}
+.textTable .textTitle {
+	background-color: #66CCFF;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #000066;
+	text-align: center;
+	height:25px;
+	font-weight: bold;
+}

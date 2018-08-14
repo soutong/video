@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<config>
+		<roundCorner>0</roundCorner>
+		<autoPlayTime>5</autoPlayTime>
+		<isHeightQuality>false</isHeightQuality>
+		<blendMode>normal</blendMode>
+		<transDuration>1</transDuration>
+		<windowOpen>_self</windowOpen>
+		<btnSetMargin>auto 5 5 auto</btnSetMargin>
+		<btnDistance>20</btnDistance>
+		<titleBgColor>0xffcc00</titleBgColor>
+		<titleTextColor>0x000000</titleTextColor>
+		<titleBgAlpha>.75</titleBgAlpha>
+		<titleMoveDuration>1</titleMoveDuration>
+		<btnAlpha>.7</btnAlpha>
+		<btnTextColor>0x000000</btnTextColor>
+		<btnDefaultColor>0xffffff</btnDefaultColor>
+		<btnHoverColor>0x2374c2</btnHoverColor>
+		<btnFocusColor>0xffcc00</btnFocusColor>
+		<changImageMode>click</changImageMode>
+		<isShowBtn>true</isShowBtn>
+		<isShowTitle>true</isShowTitle>
+		<scaleMode>noBorder</scaleMode>
+		<transform>top</transform>
+		<isShowAbout>false</isShowAbout>
+		<titleFont>微软雅黑</titleFont>
+	</config>
+	<channel>
+		<item>
+			<title>学校的远景</title>
+			<link>http://www.baidu.com/</link>
+			<image>images/xunxiao-220.jpg</image>
+			<time>2009-7-27 13:27:49</time>
+		</item>
+		<item>
+			<title>安静的课堂 </title>
+			<link>http://www.baidu.com/</link>
+			<image>images/shangke-220.jpg</image>
+			<time>2009-7-27 13:28:21</time>
+		</item>
+		<item>
+			<title>技术讨论课</title>
+			<link>http://www.baidu.com/</link>
+			<image>images/cssp3-220.gif</image>
+			<time>2009-7-27 13:29:23</time>
+		</item>
+		<item>
+			<title>考前辅导课</title>
+			<link>http://www.baidu.com/</link>
+			<image>images/peixun-220.gif</image>
+			<time>2009-8-9 3:23:29</time>
+		</item>
+	</channel>
+</data>
